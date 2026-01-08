@@ -15,7 +15,7 @@
     --main-color: #00ffee;
  }
  html{
-    font-size: 60%;
+    font-size: 100%;
     overflow-x: hidden;
  }
  body{
@@ -67,6 +67,11 @@
     color: var(--main-color);
     border-bottom: 3px solid var(--main-color);
 }
+
+.home-img img {
+  max-width: 100%;
+  height: auto;
+}
 #menu-icon{
     font-size: 3.6rem;
     color: var(--main-color);
@@ -114,8 +119,8 @@ span{
 .home-img img{
    position: relative;
    top: 3rem;
-   width: 32vw;
-   height: 32vw ;
+    max-width: 100%;
+  height: auto;
    border-radius: 50%;
    box-shadow: 0 0 25px var(--main-color);
    cursor: pointer;
@@ -658,4 +663,5 @@ span{
    .timeline-items:nth-child(even){
       padding-left: 0;
    }
+
 }
